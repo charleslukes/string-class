@@ -7,4 +7,7 @@ describe('HasVowel method ', () => {
   it('Should return true if string has vowel ', () => {
     expect('Ebc'.hasVowel()).toBeTruthy();
   });
+  it('Should return false if string has no vowel ', () => {
+    expect('crt'.hasVowel()).toBeFalsy();
+  })
 })
