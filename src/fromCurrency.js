@@ -5,7 +5,7 @@
  */
 
 String.prototype.fromCurrency = function() {
-  let regex = /^\d+\,?\d+[.]\d+$/g;
+  var regex = /^\d+\,?\d+[.]\d+$/g;
   
   return (regex.test(this) === false)
     ? "Input should be in currency format"

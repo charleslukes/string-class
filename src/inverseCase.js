@@ -7,25 +7,23 @@ let toLower = require('./toLower');
  */
 
  String.prototype.inverseCase = function() {
-   let alternateString = '';
+   var invertString = '';
 
    //iterate through each character of string
-   for (let index = 0; index < this.length; index++) {
+   for (var index = 0; index < this.length; index++) {
      //holds the charcode value of the current character
-     let characterCode = this.charCodeAt(index);
+     var characterCode = this.charCodeAt(index);
 
      //check the value of the character
      if(characterCode >= 97 && characterCode <= 122 ){
        //uses the toUpper method already created
-       alternateString += this[index].toUpper();
+       invertString += this[index].toUpper();
      }
      else{
        //uses the toLower method already created
-       alternateString += this[index].toLower();
+       invertString += this[index].toLower();
      }
    }
-   //return the alternated string output
-   return alternateString;
+   //return the inverted string output
+   return invertString;
  }
-
-console.log('Mr Ben'.inverseCase());

@@ -5,8 +5,8 @@
  */
 
  String.prototype.isQuestion = function() {
-   let regex = /[?]/g
-   
+   var regex = /[?]/g
+
    //test the word returns true if test pass else false;
    return regex.test(this);
  }

@@ -8,12 +8,12 @@
 
  String.prototype.toLower = function() {
    //placeholder for the lowered words
-  let captitalizedWords = "";
+  var captitalizedWords = "";
 
   //iterate each charaters of the word
-  for (let index = 0; index < this.length; index++) {
+  for (var index = 0; index < this.length; index++) {
     //hold the character code of the character
-    let characterCode = this.charCodeAt(index);
+    var characterCode = this.charCodeAt(index);
 
     //specifying the range of character code for capital letters
     if (characterCode >= 65 && characterCode <= 90) {
