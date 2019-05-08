@@ -4,7 +4,7 @@ describe("isQuestion method ", function() {
     expect(isQuestion).toBeDefined();
   });
   it("Should return true if sentence is a question ", function() {
-    expect("Hey, whats up?".isQuestion()).toTruthy();
+    expect("Hey, whats up?".isQuestion()).toBeTruthy();
   });
   
 });
