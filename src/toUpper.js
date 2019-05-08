@@ -1,5 +1,5 @@
 /**
- * Implementing an uppercase method without using the toUppercase JS method.
+ * Implementing an uppercase method without using the toUpperCase JS method.
  * Using the JS charCodeAt and fromCharCode
  *
  * author: charles-ebuka-chiakwa
