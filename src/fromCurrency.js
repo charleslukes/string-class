@@ -5,9 +5,11 @@
  */
 
 String.prototype.fromCurrency = function() {
+  //regex checks if input is valid
   var regex = /^\d+\,?\d+[.]\d+$/g;
-  
-  return (regex.test(this) === false)
+
+  //if true replace and converts to a number
+  return regex.test(this) === false
     ? "Input should be in currency format"
     : Number(this.replace(/[,]/g, ""));
 };
