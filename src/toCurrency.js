@@ -13,3 +13,5 @@ String.prototype.toCurrency = function() {
     ? this.replace(/\d(?=(\d{3}){1,}(\.))/g, "$&,")
     : "Input must in currency format";
 };
+
+module.exports = String.prototype.toCurrency;
