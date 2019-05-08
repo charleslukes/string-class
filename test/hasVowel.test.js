@@ -1,4 +1,4 @@
-let hasVowel = require('../src/hasVowel')
+var hasVowel = require('../src/hasVowel')
 
 describe('HasVowel method ', function (){
   it('Should be defined ', function () {

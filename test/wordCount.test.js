@@ -1,4 +1,4 @@
-let wordCount = require('../src/wordCount')
+var wordCount = require('../src/wordCount')
 
 describe("wordCount method ", function() {
   it("Should be defined ", function() {

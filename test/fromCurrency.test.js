@@ -1,4 +1,4 @@
-let fromCurrency = require('../src/fromCurrency')
+var fromCurrency = require('../src/fromCurrency')
 
 describe("fromCurrency method ", function() {
   it("Should be defined ", function() {

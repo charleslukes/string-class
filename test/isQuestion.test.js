@@ -1,4 +1,5 @@
-let isQuestion = require('../src/isQuestion')
+var isQuestion = require('../src/isQuestion')
+
 describe("isQuestion method ", function() {
   it("Should be defined ", function() {
     expect(isQuestion).toBeDefined();

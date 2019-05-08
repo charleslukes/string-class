@@ -1,4 +1,4 @@
-let toUpper = require('../src/toUpper')
+var toUpper = require('../src/toUpper')
 
 describe('toUpper method ', function () {
   it('Should be defined ', function () {

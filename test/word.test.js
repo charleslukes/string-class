@@ -1,4 +1,4 @@
-let word = require('../src/word')
+var word = require('../src/word')
 
 describe("word method ", function() {
   it("Should be defined ", function() {

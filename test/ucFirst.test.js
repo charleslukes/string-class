@@ -1,4 +1,4 @@
-let ucFirst = require("../src/ucFirst");
+var ucFirst = require("../src/ucFirst");
 
 describe("ucFirst method ", function() {
   it("Should be defined ", function() {
