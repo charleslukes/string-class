@@ -8,3 +8,5 @@
    let regex = /[?]/g
    return regex.test(this)? true: false;
  }
+
+ module.exports = String.prototype.isQuestion;
