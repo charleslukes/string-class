@@ -1,6 +1,6 @@
 let word = require('../src/word')
 
-describe("isQuestion method ", function() {
+describe("word method ", function() {
   it("Should be defined ", function() {
     expect(word).toBeDefined();
   });

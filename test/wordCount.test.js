@@ -1,6 +1,6 @@
 let wordCount = require('../src/wordCount')
 
-describe("isQuestion method ", function() {
+describe("wordCount method ", function() {
   it("Should be defined ", function() {
     expect(wordCount).toBeDefined();
   });
