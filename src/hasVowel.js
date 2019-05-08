@@ -1,7 +1,15 @@
+/**
+ * This method checks if a string has a vowel letter using regex
+ * 
+ * author: charles-ebuka-chiakwa
+ */
+
 
 String.prototype.hasVowel = function(){
   let reg = /[aeiou]+/gi;
-  return (reg.test(this))? true: false;
+
+  //return true for words that contain vowels else false
+  return (reg.test(this));
 }
 
 module.export = String.prototype.hasVowel;

@@ -6,7 +6,9 @@
 
  String.prototype.isQuestion = function() {
    let regex = /[?]/g
-   return regex.test(this)? true: false;
+   
+   //test the word returns true if test pass else false;
+   return regex.test(this);
  }
 
  module.exports = String.prototype.isQuestion;
