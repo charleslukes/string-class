@@ -28,3 +28,5 @@
   //outputs the converted string
   return captitalizedWords;
  }
+
+ module.export = String.prototype.toLower;

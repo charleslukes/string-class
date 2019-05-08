@@ -27,3 +27,5 @@ String.prototype.toUpper = function() {
   //outputs the converted string
   return captitalizedWords;
 };
+
+module.export = String.prototype.toUpper;

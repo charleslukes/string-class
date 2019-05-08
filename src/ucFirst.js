@@ -18,3 +18,5 @@ String.prototype.ucFirst = function() {
   //returns the ucFirst result
   return capitalizedChar;
 };
+
+module.export = String.prototype.ucFirst;
