@@ -8,3 +8,5 @@
    var regex = /^\d$/g;
    return regex.test(this);
  } 
+
+ module.exports = String.prototype.isDigit;

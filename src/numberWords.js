@@ -26,3 +26,5 @@
   }
   return stringNumbers;
  }
+
+ module.exports = String.prototype.numberWords;

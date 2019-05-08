@@ -12,3 +12,4 @@ String.prototype.fromCurrency = function() {
     : Number(this.replace(/[,]/g, ""));
 };
 
+module.exports = String.prototype.fromCurrency;

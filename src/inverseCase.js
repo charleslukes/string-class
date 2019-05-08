@@ -27,3 +27,5 @@ let toLower = require('./toLower');
    //return the inverted string output
    return invertString;
  }
+
+ module.exports = String.prototype.inverseCase;

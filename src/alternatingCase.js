@@ -17,3 +17,5 @@ String.prototype.alternatingCase = function() {
   }
   return alternatesString;
 };
+
+module.exports = String.prototype.alternatingCase;
