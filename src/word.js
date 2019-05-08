@@ -5,7 +5,7 @@
  */
 
  String.prototype.word = function() {
-   
+
    //return an array of words
    return this.match(/\b\w+[,.?]?/gi)
  }
