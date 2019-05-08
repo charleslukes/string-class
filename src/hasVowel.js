@@ -1,6 +1,6 @@
 
 String.prototype.hasVowel = function(){
-  let reg = /[aeiou]/gi;
+  let reg = /[aeiou]+/gi;
   return (reg.test(this))? true: false;
 }
 
