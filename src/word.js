@@ -4,7 +4,7 @@
  * author: charles-ebuka-chiakwa
  */
 
-String.prototype.word = function() {
+String.prototype.word = function () {
   
   //return an array of words
   return this.match(/\b\w+[,.?]?/gi);

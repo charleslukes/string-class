@@ -5,7 +5,7 @@
  */
 
 
-String.prototype.hasVowel = function(){
+String.prototype.hasVowel = function () {
   var reg = /[aeiou]+/gi;
 
   //return true for words that contain vowels else false

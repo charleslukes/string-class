@@ -6,7 +6,7 @@ let toLower = require("./toLower");
  * author: charles-ebuka-chiakwa
  */
 
-String.prototype.alternatingCase = function() {
+String.prototype.alternatingCase = function () {
   var alternatesString = "";
 
   //iterate overeach character of the input

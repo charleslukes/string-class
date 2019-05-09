@@ -7,7 +7,7 @@ let toUpper = require("./toUpper");
  * author: charles-ebuka-chiakwa
  */
 
-String.prototype.ucFirst = function() {
+String.prototype.ucFirst = function () {
   //capitalize the first character of the word
   var capitalizedChar = this[0].toUpper();
 

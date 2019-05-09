@@ -4,7 +4,7 @@
  * author: charles-ebuka-chiakwa
  */
 
-String.prototype.wordCount = function() {
+String.prototype.wordCount = function () {
   //returns the number of words in the string
   return this.match(/\b\w+[,.?]?/gi).length;
 };

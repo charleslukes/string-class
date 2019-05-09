@@ -4,7 +4,7 @@
  * author: charles-ebuka-chiakwa
  */
 
-String.prototype.numberWords = function() {
+String.prototype.numberWords = function () {
   var stringNumbers = "";
 
   //append each digit to its string value

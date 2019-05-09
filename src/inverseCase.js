@@ -6,7 +6,7 @@ let toLower = require('./toLower');
  * author: charles-ebuka-chiakwa
  */
 
- String.prototype.inverseCase = function() {
+ String.prototype.inverseCase = function () {
    var invertString = '';
 
    //iterate through each character of string

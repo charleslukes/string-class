@@ -6,7 +6,7 @@
  * author: charles-ebuka-chiakwa
  */
 
- String.prototype.toLower = function() {
+ String.prototype.toLower = function () {
    //placeholder for the lowered words
   var captitalizedWords = "";
 

@@ -4,7 +4,7 @@
  * author: charles-ebuka-chiakwa
  */
 
-String.prototype.isDigit = function() {
+String.prototype.isDigit = function () {
   var regex = /^\d$/g;
 
   //test and ensures input is a single digit

@@ -5,7 +5,7 @@
  * author: charles-ebuka-chiakwa
  */
 
-String.prototype.toUpper = function() {
+String.prototype.toUpper = function () {
   //placeholder for the capitalized words
   var captitalizedWords = "";
 

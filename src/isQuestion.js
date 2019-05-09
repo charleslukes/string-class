@@ -4,7 +4,7 @@
  * author: charles-ebuka-chiakwa
  */
 
-String.prototype.isQuestion = function() {
+String.prototype.isQuestion = function () {
   var regex = /[?]/g;
 
   //test the word returns true if test pass else false;

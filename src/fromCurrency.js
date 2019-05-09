@@ -4,7 +4,7 @@
  * author: charles-ebuka-chiakwa
  */
 
-String.prototype.fromCurrency = function() {
+String.prototype.fromCurrency = function () {
   //regex checks if input is valid
   var regex = /^\d+\,?\d+[.]\d+$/g;
 

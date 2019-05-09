@@ -4,7 +4,7 @@
  * author: charles-ebuka-chiakwa
  */
 
-String.prototype.toCurrency = function() {
+String.prototype.toCurrency = function () {
   //regex input validation
   var regex = /\b(?!\D)([0-9]+\.[0-9]+)\b/g;
 
