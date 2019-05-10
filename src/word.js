@@ -6,7 +6,7 @@
 
 String.prototype.word = function () {
   
-  //return an array of words
+  //return an array of words that contains both letters, numbers and some special characters
   return this.match(/\b\w+[,.?]?/gi);
 };
 module.exports = String.prototype.word;

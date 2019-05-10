@@ -6,6 +6,7 @@
 
 
 String.prototype.hasVowel = function () {
+  //regex checks if the word has a,e,i,o,u in it.
   var reg = /[aeiou]+/gi;
 
   //return true for words that contain vowels else false

@@ -12,10 +12,10 @@ String.prototype.ucFirst = function () {
   var capitalizedChar = this[0].toUpper();
 
   //concate the capitalized character with the new word
-  //the slice remove the character at index 0.
+  //the slice remove the character at the first letter.
   capitalizedChar += this.slice(1);
 
-  //returns the ucFirst result
+  //returns the converted word as output
   return capitalizedChar;
 };
 

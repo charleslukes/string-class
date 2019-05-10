@@ -5,7 +5,9 @@
  */
 
 String.prototype.wordCount = function () {
-  //returns the number of words in the string
+
+  //checks if word match, word must be letters, numbers or special characters 
+  //returns the number of words in the sentence.
   return this.match(/\b\w+[,.?]?/gi).length;
 };
 module.exports = String.prototype.wordCount;

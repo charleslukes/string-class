@@ -21,18 +21,19 @@ String.prototype.numberWords = function () {
     9: "nine"
   };
 
-  //iterates through the input
+  //looping through all input characters to access them one by one
   for (var index = 0; index < this.length; index++) {
 
-    //regex ensures that the input is only digits
+    //regex checks if the input contains values that are not numbers
     var regex = /[^\d+]/g;
 
-    //returns true if input is not a number string
+    //If input contains values that are not number it return a warning string
     if (regex.test(this)) return "Input must be string of numbers only";
     
-    //append the string values of the numbers
+    //holds the string values of the numbers
     stringNumbers += numbers[this[index]] + " ";
   }
+  //return the values as output
   return stringNumbers;
 };
 

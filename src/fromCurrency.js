@@ -1,14 +1,14 @@
 /**
- * This method returns a number representation of curremcy string
+ * This method returns a number representation of currency string
  *
  * author: charles-ebuka-chiakwa
  */
 
 String.prototype.fromCurrency = function () {
-  //regex checks if input is valid
+  //regex checks if input starts with a number and ends with a number
   var regex = /^\d+\,?\d+[.]\d+$/g;
 
-  //if true replace and converts to a number
+  //If true replace and converts the (,) to ('').
   return regex.test(this) === false
     ? "Input should be in currency format"
     : Number(this.replace(/[,]/g, ""));

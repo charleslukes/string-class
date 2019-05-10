@@ -9,16 +9,18 @@ let toLower = require("./toLower");
 String.prototype.alternatingCase = function () {
   var alternatesString = "";
 
-  //iterate overeach character of the input
+  //looping through all input characters to access them one by one
   for (var index = 0; index < this.length; index++) {
-    //converts second character to upper case
+
+    //converts characters at even indexes to upper case
     if (index % 2 === 1) {
       alternatesString += this[index].toUpper();
     } else {
+      // converts characters at odd indexes to lower case
       alternatesString += this[index].toLower();
     }
   }
-  //return converted output
+  //return converted string 
   return alternatesString;
 };
 
