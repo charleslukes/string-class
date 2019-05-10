@@ -5,7 +5,7 @@
  */
 
 String.prototype.isDigit = function () {
-  var regex = /^\d$/g;
+  let regex = /^\d$/g;
 
   //test and ensures input is a single digit
   return regex.test(this);

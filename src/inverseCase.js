@@ -7,12 +7,12 @@ let toLower = require('./toLower');
  */
 
  String.prototype.inverseCase = function () {
-   var invertString = '';
+   let invertString = '';
 
    //looping through all input characters to access them one by one
-   for (var index = 0; index < this.length; index++) {
+   for (let index = 0; index < this.length; index++) {
      //holds the charcode value of the current character
-     var characterCode = this.charCodeAt(index);
+     let characterCode = this.charCodeAt(index);
 
      //check if the charcode value of the character is between 97 and 122
      if(characterCode >= 97 && characterCode <= 122 ){

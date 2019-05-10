@@ -5,7 +5,7 @@
  */
 
 String.prototype.isQuestion = function () {
-  var regex = /[?]/g;
+  let regex = /[?]/g;
 
   //test the word returns true if word contains (?) else returns false;
   return regex.test(this);

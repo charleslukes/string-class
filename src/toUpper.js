@@ -7,12 +7,12 @@
 
 String.prototype.toUpper = function () {
   //placeholder for the capitalized words
-  var captitalizedWords = "";
+  let captitalizedWords = '';
 
   //looping through all input characters to access them one by one
-  for (var index = 0; index < this.length; index++) {
+  for (let index = 0; index < this.length; index++) {
     //hold the character code of the character at that index
-    var characterCode = this.charCodeAt(index);
+    let characterCode = this.charCodeAt(index);
 
     //specifying the range of character code for small letters
     if (characterCode >= 97 && characterCode <= 122) {

@@ -1,5 +1,5 @@
-let toUpper = require("./toUpper");
-let toLower = require("./toLower");
+let toUpper = require('./toUpper');
+let toLower = require('./toLower');
 /**
  * This method alternates the string its acalled with.
  *
@@ -7,10 +7,10 @@ let toLower = require("./toLower");
  */
 
 String.prototype.alternatingCase = function () {
-  var alternatesString = "";
+  let alternatesString = '';
 
   //looping through all input characters to access them one by one
-  for (var index = 0; index < this.length; index++) {
+  for (let index = 0; index < this.length; index++) {
 
     //converts characters at even indexes to upper case
     if (index % 2 === 1) {

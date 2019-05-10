@@ -1,4 +1,4 @@
-let toUpper = require("./toUpper");
+let toUpper = require('./toUpper');
 
 /**
  *This method uppercase the firt character of every word.
@@ -9,7 +9,7 @@ let toUpper = require("./toUpper");
 
 String.prototype.ucFirst = function () {
   //capitalize the first character of the word
-  var capitalizedChar = this[0].toUpper();
+  let capitalizedChar = this[0].toUpper();
 
   //concate the capitalized character with the new word
   //the slice remove the character at the first letter.

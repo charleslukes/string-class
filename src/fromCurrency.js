@@ -6,11 +6,11 @@
 
 String.prototype.fromCurrency = function () {
   //regex checks if input starts with a number and ends with a number
-  var regex = /^\d+\,?\d+[.]\d+$/g;
+  let regex = /^\d+\,?\d+[.]\d+$/g;
 
   //If true replace and converts the (,) to ('').
   return regex.test(this) === false
-    ? "Input should be in currency format"
+    ? 'Input should be in currency format'
     : Number(this.replace(/[,]/g, ""));
 };
 
