@@ -38,4 +38,3 @@ String.prototype.numberWords = function () {
 };
 
 module.exports = String.prototype.numberWords;
-console.log("323".numberWords());
